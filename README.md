@@ -2,6 +2,7 @@
 This is the homework 1 for information security lesson
 
 a) Bandit (solve the first 5 levels)
+
 -- Level 0 -- 
 For the first exersice I worked with Putty SSH. Host name was bandit.labs.overthewire.org on port 2220. Use as u: bandit0 and p:bandit0.
 Hint: When we write the password for the server it never shows. 
