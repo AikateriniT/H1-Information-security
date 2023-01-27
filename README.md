@@ -93,7 +93,8 @@ ________________________________________________________________________________
 For the developer tools there is introduction about how the developer tools is working (HTML, CSS etc). For the first assignment we have to open the console and type a function that shows a random number which must be written to the empty field of the input. 
 ![Console](https://user-images.githubusercontent.com/113516460/215195606-2c5626c7-dee2-4b4e-a115-660d22a12ade.JPG)
 
-
+Then for the final task 6 we must clear all the network requests and then press the GO! button so that we can easily check which is the right one. From the file we can easily read the random number written there. 
+![developer tools](https://user-images.githubusercontent.com/113516460/215217979-37439730-f8f3-445a-869d-e04c3c33a03a.JPG)
 
 
 Voluntary bonus:
