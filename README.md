@@ -9,6 +9,7 @@ x) Read and summarize. (This subtask x does not require tests with a computer. S
 ________________________________________________________________________________________________
 
 2. Related work 
+
 Here are described other phase based models for the defensive and countermeasure strategies. 
 - United States Department of Defence Joint Staff describes a kill chain as:
 find, fix, target, engage, and assess (U.S. Department of Defence,2007)
@@ -16,6 +17,7 @@ find, fix, target, engage, and assess (U.S. Department of Defence,2007)
 - Phase-based approaches to cybercrime, insider threats and countermeasure strategies are essential for CND against APT actors. One such approach is the Attack-Based Sequential Analysis of Countermeasures (ABSAC) which aligns types of countermeasures along the time phase of an attack. The ABSAC approach includes more reactive post-compromise countermeasures rather than early detection capability to uncover persistent adversaries.
 
 3. Intelligence-driven Computer Network Defense
+
 - Intelligence-driven computer network defense is a risk management strategy that addresses the threat component of risk, incorporating analysis of adversaries, their capabilities, objectives, doctrine and limitations.
 
 
