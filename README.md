@@ -1,6 +1,6 @@
 # H1-Information-security
 This is the homework 1 for information security lesson
-
+________________________________________________________________________________________________
 x) Read and summarize. (This subtask x does not require tests with a computer. Some bullets per article is enough for your summary)
 - Hutchins et al 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains, chapters Abstract, 
 3.2 Intrusion Kill Chain and 
@@ -29,7 +29,7 @@ find, fix, target, engage, and assess (U.S. Department of Defence,2007)
       - Behavioral indicators,  are collections of computed and atomic indicators. 
 - This cycle of actions, and the corresponding indicator states, form the indicator life cycle:
       - Report -> Revealed -> Leverage -> Mature -> Discover -> Utilized -> Analyze ->
-
+__________________________________________________________________________________________________________________
 a) Bandit (solve the first 5 levels)
 __________________________________________________________________________________________________________________
 -- Level 0 -- 
@@ -88,7 +88,7 @@ When we are at the home directory:
 We start searching which is the correct file, and since there are files which are not human-redable they mess up the SSH and we need to reset. The password is found in the 8th file. 
 
 Ctrl + d
-
+__________________________________________________________________________________________________________________
 b) Bullseye. Install Debian 11-Bullseye virtual machine in VirtualBox. (See also: Karvinen 2021: Install Debian on VirtualBox)
 __________________________________________________________________________________________________________________
 
@@ -125,11 +125,11 @@ For the developer tools there is introduction about how the developer tools is w
 Then for the final task 6 we must clear all the network requests and then press the GO! button so that we can easily check which is the right one. From the file we can easily read the random number written there. 
 ![developer tools](https://user-images.githubusercontent.com/113516460/215217979-37439730-f8f3-445a-869d-e04c3c33a03a.JPG)
 
-
+________________________________________________________________________________________________________________________
 Voluntary bonus:
 
 Banditry. Solve over the wire: Bandit 5-7.
-
+________________________________________________________________________________________________________________________
 -- Level 5 --
 
 Open a new session with same host name and port. U: bandit5 and password the one that we found. 
@@ -163,6 +163,10 @@ So:
 
       grep 'millionth' data.txt
 And the password is printed there. 
+____________________________________________________________________________________________
+
+o) Voluntary bonus: My fundaments. What do you consider the fundamentals of security? What would you teach the first day?
+____________________________________________________________________________________________
 
       
       
