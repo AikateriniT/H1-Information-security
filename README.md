@@ -131,11 +131,48 @@ Voluntary bonus:
 Banditry. Solve over the wire: Bandit 5-7.
 
 -- Level 5 --
+
 Open a new session with same host name and port. U: bandit5 and password the one that we found. 
 When we are at the home directory:
 
       ls -la
       cd inhere
+      find /home/bandit5/inhere -type f -size 1033c 
+And it writes the exact file which meets the requirements we asked it for. 
+
+      cd maybehere07
+      cat .file2
+And we get the password. 
+
+-- Level 6 --
+
+Open a new session with same host name and port. U: bandit6 and password the one that we found. 
+When we are at the home directory since the password is hidden somewhere in the server we will search the entire server and set the requirments. 
+So:
+
+      find / -type f -size 33c -user bandit7 -group bandit6 2>/dev/null
+we search the entire server for a file which is 33bytes owned by user bandit7 (which can be replaced by the numerical 11007) and owned by group bandit 6 ( 11006). with the 2>/dev/null we are asking it to drop the files we dont have access to a blackhole so that our terminal is not full of errors. 
+
+The search returns one result which we open it and the password is there. 
+
+-- Level 7 -- 
+
+Open a new session with same host name and port. U: bandit7 and password the one that we found. 
+When we are at the home directory since the password is hidden in the data.txt file we will use the grep.
+So:
+
+      grep 'millionth' data.txt
+And the password is printed there. 
+
+      
+      
+
+
+
+      
+
+
+      
       
       
       
