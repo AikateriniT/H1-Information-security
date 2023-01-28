@@ -17,7 +17,16 @@ find, fix, target, engage, and assess (U.S. Department of Defence,2007)
 
 3. Intelligence-driven Computer Network Defense
 - Intelligence-driven computer network defense is a risk management strategy that addresses the threat component of risk, incorporating analysis of adversaries, their capabilities, objectives, doctrine and limitations.
-- 
+
+
+3.1 Indicators and the Indicator Life Cycle
+- The fundamental element of the intelligence in this model is the indicator. 
+- Indicator is any piece of information that objectivelly describes an intrusion. There are three types of indicators:
+      - Atomic indicators, are those which can not be broken down to smaller parts like IP addresses, email addresses and vulnerability identifiers. 
+      - Computed indicators, are derived from data involved in an incident, like hash values and regular expressions. 
+      - Behavioral indicators,  are collections of computed and atomic indicators. 
+- This cycle of actions, and the corresponding indicator states, form the indicator life cycle:
+      - Report -> Revealed -> Leverage -> Mature -> Discover -> Utilized -> Analyze ->
 
 a) Bandit (solve the first 5 levels)
 __________________________________________________________________________________________________________________
